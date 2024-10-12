@@ -29,8 +29,8 @@ module.exports = {
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://mateochatbot:xdtL2bYQ9eV3CeXM@gerald.r2hjy.mongodb.net/",
+    sessionId: process.env.SESSION_ID || "N29tdnh_Queen-Anya_6c3c=",
 
     /**
      * thumbnails and medias
@@ -61,7 +61,7 @@ module.exports = {
         nsfw: 'This group is not *NSFW* enabled.',
         banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
     },
-    Port: process.env.Port || "8080",
+    Port: process.env.Port || "3000",
 
     /**
      * external APIs
